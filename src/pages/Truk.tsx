@@ -9,7 +9,7 @@ export default function Truk() {
         <div className="max-w-5xl mx-auto">
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden animate-fadeIn">
             <img
-              src="public/images/truk.png"
+              src="images/truk.png"
               alt="Truk CDD Bak Terbuka"
               className="w-full h-64 object-contain rounded-xl bg-gray-100"
             />
