@@ -18,7 +18,7 @@ export default function Bus() {
         <div className="max-w-5xl mx-auto">
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden animate-fadeIn">
             <img
-              src="/images/medium.png"
+              src="images/medium.png"
               alt="Bus Medium Pariwisata"
               className="w-full h-64 object-contain rounded-xl bg-gray-100"
             />
