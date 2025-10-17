@@ -71,7 +71,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition p-4 animate-fadeIn">
             <img
-              src="public/images/medium.png"
+              src="images/medium.png"
               alt="Bus Medium Pariwisata"
               className="w-full h-64 object-contain rounded-xl bg-gray-100"
             />
@@ -95,7 +95,7 @@ export default function Home() {
 
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition p-4 animate-fadeIn" style={{ animationDelay: '0.1s' }}>
             <img
-              src="public/images/truk.png"
+              src="images/truk.png"
               alt="Truk CDD Bak Terbuka"
               className="w-full h-64 object-contain rounded-xl bg-gray-100"
             />
@@ -131,28 +131,28 @@ export default function Home() {
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       <div className="overflow-hidden rounded-xl shadow hover:scale-105 transition">
         <img
-          src="public/images/foto1.jpeg"
+          src="mages/foto1.jpeg"
           alt="Armada Bus"
           className="w-full h-48 object-cover"
         />
       </div>
       <div className="overflow-hidden rounded-xl shadow hover:scale-105 transition">
         <img
-          src="public/images/foto2.jpeg"
+          src="images/foto2.jpeg"
           alt="Armada Truk"
           className="w-full h-48 object-cover"
         />
       </div>
       <div className="overflow-hidden rounded-xl shadow hover:scale-105 transition">
         <img
-          src="public/images/foto4.jpeg"
+          src="images/foto4.jpeg"
           alt="Interior Bus"
           className="w-full h-48 object-cover"
         />
       </div>
       <div className="overflow-hidden rounded-xl shadow hover:scale-105 transition">
         <img
-          src="public/images/foto5.jpeg"
+          src="images/foto5.jpeg"
           alt="Truk siap berangkat"
           className="w-full h-48 object-cover"
         />
