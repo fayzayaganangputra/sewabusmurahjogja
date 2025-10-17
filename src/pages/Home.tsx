@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Bus, Truck, Shield, Users, DollarSign } from 'lucide-react';
 
 export default function Home() {
-  const whatsappLink = 'https://wa.me/6281234567890';
+  const whatsappLink = 'https://wa.me/088983673320';
 
   return (
     <div className="min-h-screen">
