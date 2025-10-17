@@ -49,12 +49,12 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-100 text-sm">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-white mt-0.5" />
-                <span>Godean, Yogyakarta</span>
+                <span>Berjon Kulon, Sidoluhur, Godean, Sleman, Yogyakarta</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-white" />
                 <a href="tel:+6281234567890" className="hover:underline">
-                  +62 812-3456-7890
+                  +62 889-8367-3320
                 </a>
               </li>
               <li className="flex items-center space-x-3">
@@ -68,8 +68,9 @@ export default function Footer() {
 
           {/* Kolom 3 - Peta */}
           <div className="flex justify-center md:justify-end">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.037945182435!2d110.37838457499544!3d-7.357760972512138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a597cf295e2d3%3A0x6579f8cf6d6e41e5!2sSleman%2C%20Yogyakarta!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.245325693965!2d110.27671819999999!3d-7.763787499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af70dfaf8848b%3A0x412b6388ef9f184d!2sGarasi%20BUS%20BKM%20(Budi%20Karya%20Mandiri)!5e0!3m2!1sid!2sid!4v1760729824997!5m2!1sid!2sid" 
+            
               width="100%"
               height="180"
               style={{ border: 0 }}

@@ -1,13 +1,13 @@
 import { MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Kontak() {
-  const whatsappLink = 'https://wa.me/6281234567890';
+  const whatsappLink = 'https://wa.me/088983673320';
 
   const contactInfo = [
     {
       icon: Phone,
       label: 'WhatsApp',
-      value: '+62 812-3456-7890',
+      value: '+62 889-8367-3320',
       color: 'text-[#16a34a]',
     },
     {
@@ -84,7 +84,7 @@ export default function Kontak() {
                 di seluruh wilayah DIY dan sekitarnya.
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.037945182435!2d110.37838457499544!3d-7.357760972512138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a597cf295e2d3%3A0x6579f8cf6d6e41e5!2sSleman%2C%20Yogyakarta!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.245325693965!2d110.27671819999999!3d-7.763787499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af70dfaf8848b%3A0x412b6388ef9f184d!2sGarasi%20BUS%20BKM%20(Budi%20Karya%20Mandiri)!5e0!3m2!1sid!2sid!4v1760729824997!5m2!1sid!2sid"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
