@@ -131,7 +131,7 @@ export default function Home() {
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       <div className="overflow-hidden rounded-xl shadow hover:scale-105 transition">
         <img
-          src="mages/foto1.jpeg"
+          src="images/foto1.jpeg"
           alt="Armada Bus"
           className="w-full h-48 object-cover"
         />
