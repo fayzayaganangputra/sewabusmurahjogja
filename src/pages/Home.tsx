@@ -79,10 +79,34 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-2 text-[#1e40af]">Bus Medium Pariwisata</h3>
               <p className="text-gray-600 mb-3">Kapasitas: 30 penumpang</p>
               <p className="text-3xl font-bold text-[#16a34a] mb-4">
-                Rp 1.800.000 <span className="text-lg text-gray-500">/ hari</span>
+                Rp 1.000.000 <span className="text-lg text-gray-500">/ hari</span>
               </p>
               <p className="text-gray-700 mb-4">
                 Bus nyaman full AC dengan reclining seat. Cocok untuk wisata, ziarah, dan acara keluarga.
+              </p>
+              <Link
+                to="/bus"
+                className="block w-full bg-[#16a34a] text-white text-center py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+              >
+                Detail Bus
+              </Link>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition p-4 animate-fadeIn">
+            <img
+              src="images/ekonomi.png"
+              alt="Bus Medium Pariwisata"
+              className="w-full h-64 object-contain rounded-xl bg-gray-100"
+            />
+            <div className="p-4">
+              <h3 className="text-2xl font-bold mb-2 text-[#1e40af]">Bus Medium Ekonomi Non AC</h3>
+              <p className="text-gray-600 mb-3">Kapasitas: 30 penumpang</p>
+              <p className="text-3xl font-bold text-[#16a34a] mb-4">
+                Rp 400.000 <span className="text-lg text-gray-500">/ hari</span>
+              </p>
+              <p className="text-gray-700 mb-4">
+                Medium Bus Ekonomi cocok untuk perjalanan rombongan jarak dekat dengan harga terjangkau. Meskipun tanpa AC, kendaraan ini tetap nyaman untuk kebutuhan seperti kegiatan sekolah, ziarah, atau perjalanan desa dengan jumlah penumpang banyak.
               </p>
               <Link
                 to="/bus"
@@ -92,6 +116,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
+
 
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition p-4 animate-fadeIn" style={{ animationDelay: '0.1s' }}>
             <img
@@ -116,6 +141,105 @@ export default function Home() {
               </Link>
             </div>
           </div>
+
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition p-4 animate-fadeIn">
+            <img
+              src="images/premio.png"
+              alt="Bus Medium Pariwisata"
+              className="w-full h-64 object-contain rounded-xl bg-gray-100"
+            />
+            <div className="p-4">
+              <h3 className="text-2xl font-bold mb-2 text-[#1e40af]">Hiace Premio</h3>
+              <p className="text-gray-600 mb-3">Kapasitas: 15 penumpang</p>
+              <p className="text-3xl font-bold text-[#16a34a] mb-4">
+                Rp 1.500.000 <span className="text-lg text-gray-500">/ hari</span>
+              </p>
+              <p className="text-gray-700 mb-4">
+                Hiace Premio menawarkan kenyamanan premium dengan kabin luas, desain elegan, dan performa tangguh — pilihan ideal untuk perjalanan wisata maupun bisnis.
+              </p>
+              <Link
+                to="/bus"
+                className="block w-full bg-[#1e40af] text-white text-center py-3 rounded-lg font-semibold hover:bg-[#1e3a8a] transition"
+              >
+                Detail Bus
+              </Link>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition p-4 animate-fadeIn">
+            <img
+              src="images/comuter.png"
+              alt="Bus Medium Pariwisata"
+              className="w-full h-64 object-contain rounded-xl bg-gray-100"
+            />
+            <div className="p-4">
+              <h3 className="text-2xl font-bold mb-2 text-[#1e40af]">Hiace Comuter</h3>
+              <p className="text-gray-600 mb-3">Kapasitas: 15 penumpang</p>
+              <p className="text-3xl font-bold text-[#16a34a] mb-4">
+                Rp 1.200.000 <span className="text-lg text-gray-500">/ hari</span>
+              </p>
+              <p className="text-gray-700 mb-4">
+                Hiace Commuter hadir dengan kabin lega, AC dingin merata, dan performa mesin tangguh — sempurna untuk perjalanan rombongan yang nyaman dan efisien.
+              </p>
+              <Link
+                to="/bus"
+                className="block w-full bg-[#16a34a] text-white text-center py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+              >
+                Detail Bus
+              </Link>
+            </div>
+          </div>
+
+
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition p-4 animate-fadeIn">
+            <img
+              src="images/elfshort.png"
+              alt="Bus Medium Pariwisata"
+              className="w-full h-64 object-contain rounded-xl bg-gray-100"
+            />
+            <div className="p-4">
+              <h3 className="text-2xl font-bold mb-2 text-[#1e40af]">Elf Short</h3>
+              <p className="text-gray-600 mb-3">Kapasitas: 12 penumpang</p>
+              <p className="text-3xl font-bold text-[#16a34a] mb-4">
+                Rp 900.000 <span className="text-lg text-gray-500">/ hari</span>
+              </p>
+              <p className="text-gray-700 mb-4">
+                Isuzu Elf Short menawarkan kapasitas penumpang ideal dengan kabin nyaman dan performa handal, cocok untuk perjalanan wisata dalam kota maupun antar jemput.
+              </p>
+              <Link
+                to="/bus"
+                className="block w-full bg-[#1e40af] text-white text-center py-3 rounded-lg font-semibold hover:bg-[#1e3a8a] transition"
+              >
+                Detail Bus
+              </Link>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition p-4 animate-fadeIn">
+            <img
+              src="images/elflong.png"
+              alt="Bus Medium Pariwisata"
+              className="w-full h-64 object-contain rounded-xl bg-gray-100"
+            />
+            <div className="p-4">
+              <h3 className="text-2xl font-bold mb-2 text-[#1e40af]">Elf Short</h3>
+              <p className="text-gray-600 mb-3">Kapasitas: 18 penumpang</p>
+              <p className="text-3xl font-bold text-[#16a34a] mb-4">
+                Rp 1.500.000 <span className="text-lg text-gray-500">/ hari</span>
+              </p>
+              <p className="text-gray-700 mb-4">
+                Isuzu Elf Long memiliki kapasitas besar dengan kabin luas dan suspensi nyaman, ideal untuk perjalanan rombongan jarak jauh dengan pengalaman berkendara yang aman dan menyenangkan.
+              </p>
+              <Link
+                to="/bus"
+                className="block w-full bg-[#16a34a] text-white text-center py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+              >
+                Detail Bus
+              </Link>
+            </div>
+          </div>
+
+          
         </div>
 
         {/* Gallery Section */}
